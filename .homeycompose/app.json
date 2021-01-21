@@ -1,8 +1,8 @@
 {
   "id": "com.athom.dssbridge",
-  "version": "0.0.1",
-  "compatibility": ">=4.2.0",
-  "sdk": 2,
+  "version": "0.0.2",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
   "name": {
     "en": "digitalStrom Bridge"
   },
@@ -42,8 +42,8 @@
         "onoff"
       ],
       "images": {
-        "large": "/drivers/1/assets/images/large.png",
-        "small": "/drivers/1/assets/images/small.png"
+        "large": "/drivers/ds_light_dimmer/assets/images/large.png",
+        "small": "/drivers/ds_light_dimmer/assets/images/small.png"
       }
     }
   ]

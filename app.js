@@ -1,7 +1,6 @@
 'use strict';
 
 const Homey = require('homey');
-const { ManagerSettings } = require('homey');
 const { ManagerApi } = require('homey');
 const http = require('http.min');
 
@@ -32,8 +31,8 @@ class digitalStromBridge extends Homey.App {
     }
 
     async askForSessionToken(){
-        let dss_ip = ManagerSettings.get('dss_ip');
-        let app_token = ManagerSettings.get('app_token');
+        let dss_ip = this.homey.settings.get('dss_ip');
+        let app_token = this.homey.settings.get('app_token');
         let url = "https://" + dss_ip + ":8080/json/system/loginApplication" 
                     + "?loginToken=" + app_token; 
 
