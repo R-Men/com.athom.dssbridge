@@ -105,4 +105,5 @@ dist
 
 # Homey
 env.json
+node_modules/
 !.homeycompose

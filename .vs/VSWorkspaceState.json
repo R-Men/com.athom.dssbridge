@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.homeycompose",
+    "\\.homeycompose\\drivers",
+    "\\.homeycompose\\flow",
+    "\\assets",
+    "\\assets\\images",
+    "\\drivers",
+    "\\locales",
+    "\\settings"
+  ],
+  "SelectedNode": "\\app.js",
+  "PreviewInSolutionExplorer": false
+}
