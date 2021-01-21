@@ -35,7 +35,7 @@ class DSLightDimmerDevice extends Homey.Device {
     // await setMyDeviceState({ on: value });
     // throw new Error('Switching the device failed!');
   }
-
+  
   /**
    * onSettings is called when the user updates the device's settings.
    * @param {object} event the onSettings event data
@@ -43,7 +43,7 @@ class DSLightDimmerDevice extends Homey.Device {
    * @param {object} event.newSettings The new settings object
    * @param {string[]} event.changedKeys An array of keys changed since the previous version
    * @returns {Promise<string|void>} return a custom message that will be displayed
-   */
+   *
   async onSettings({ oldSettings, newSettings, changedKeys }) {
     this.log('DSLightDimmerDevice settings where changed');
   }
@@ -52,17 +52,19 @@ class DSLightDimmerDevice extends Homey.Device {
    * onRenamed is called when the user updates the device's name.
    * This method can be used this to synchronise the name to the device.
    * @param {string} name The new name
-   */
+   *
   async onRenamed(name) {
     this.log('DSLightDimmerDevice was renamed');
   }
 
   /**
    * onDeleted is called when the user deleted the device.
-   */
+   *
   async onDeleted() {
     this.log('DSLightDimmerDevice has been deleted');
   }
+
+  */
 }
 
 module.exports = DSLightDimmerDevice;

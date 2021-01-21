@@ -1,3 +1,3 @@
-# digitalStrom
+# digitalStrom Server bridge for Homey
 
-Adds support for digitalStrom Server
+Adds support for digitalStrom Server for Homey
