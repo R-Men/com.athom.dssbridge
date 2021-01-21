@@ -1,0 +1,15 @@
+{
+  "id": "ds_light_dimmer",
+  "name": {
+    "en": "DS Light Dimmer"
+  },
+  "class": "light",
+  "capabilities": [
+    "dim",
+    "onoff"
+  ],
+  "images": {
+    "large": "/drivers/1/assets/images/large.png",
+    "small": "/drivers/1/assets/images/small.png"
+  }
+}

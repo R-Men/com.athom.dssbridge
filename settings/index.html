@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+
+    <!-- The '/homey.js' script must be included in your settings view to work -->
+    <script type="text/javascript" src="/homey.js" data-origin="settings"></script>
+
+</head>
+<body>
+
+    <h1 data-i18n="settings.title">
+        <!--
+        This field will automatically be filled by a translated string with key 'settings.title'.
+        Read more about translations at Internationalization.
+        -->
+    </h1>
+    <p data-i18n="settings.subtitle">
+        <!--
+        This field will also be translated
+        -->
+    </p>
+
+    <fieldset>
+        <legend data-i18n="digitalStrom_Server"></legend>
+
+        <div class="field row">
+            <label for="dss_ip" data-i18n="settings.dss_ip"></label>
+            <input id="dss_ip" type="text" value="" title="xxx.xxx.xxx.xxx" pattern="(([1-9]?\d|1\d\d|2[0-5][0-5]|2[0-4]\d)\.){3}([1-9]?\d|1\d\d|2[0-5][0-5]|2[0-4]\d)" />
+        </div>
+
+        <div class="field row">
+            <label for="app_token" data-i18n="settings.app_token"></label>
+            <input id="app_token" type="text" value="" />
+        </div>
+
+    </fieldset>
+
+    <button id="save" class="right" data-i18n="settings.save">Save</button>
+
+    <div id="busy" class="busy" hidden><i class="fa fa-cog fa-spin fa-2x fa-fw"></i><span></span></div>
+    <div id="error" class="error" hidden><i class="fa fa-times-circle fa-2x fa-fw"></i><span></span></div>
+    <div id="success" class="success" hidden><i class="fa fa-check fa-2x fa-fw"></i><span></span></div>
+
+    
+    <script type="text/javascript" src="settings.js"></script>
+
+</body>
+</html>

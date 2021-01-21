@@ -1,0 +1,15 @@
+{
+  "settings": {
+    "title": "digitalStrom Bridge Settings",
+    "subtitle": "Register your app in dSS first",
+    "digitalStrom_server": "dSServer",
+    "dss_ip":  "dsServer IP Address",
+    "app_token": "Application Token",
+    "save": "Save changes",
+    "success": "Success",
+
+    "messages": {
+      "successSaving": "Values saved"
+    }
+  }
+}
