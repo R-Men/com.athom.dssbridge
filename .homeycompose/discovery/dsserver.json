@@ -1,0 +1,7 @@
+{
+  "type": "ssdp",
+  "ssdp": {
+    "search": "uuid"
+  },
+  "id": "{{headers.uuid}}"
+}

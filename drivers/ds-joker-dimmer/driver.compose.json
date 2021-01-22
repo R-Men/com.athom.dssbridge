@@ -1,0 +1,15 @@
+{
+  "id": "ds-joker-dimmer",
+  "name": {
+    "en": "dS Joker Dimmer"
+  },
+  "class": "other",
+  "capabilities": [
+    "dim",
+    "onoff"
+  ],
+  "images": {
+    "large": "/drivers/ds-joker-dimmer/assets/images/large.png",
+    "small": "/drivers/ds-joker-dimmer/assets/images/small.png"
+  }
+}
